@@ -10,6 +10,9 @@
     --green: #C9CD1A;
     --white: #FFFFFF;
     --font-family: "Itim";
+    --turquise: #1ACDAD;
+    --footer-gray: #303030;
+    --very-light-gray: #A0A0A0;
 }
 .container{
     padding: 30px 150px;
@@ -42,12 +45,15 @@ nav{
 }
 h2{
     color: var(--gray);
-    font-size: 68px;
+    font-size: 98px;
     font-family: var(--font-family);
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 #ul2{
     display: flex;
     gap: 20px;
+    padding-left: 30px;
 }
 main{
     display: flex;
@@ -62,10 +68,47 @@ main{
 .li2{
     color: var(--green);
     font-family: var(--font-family);
-}
-p{
-    font-family: var(--font-family);
-}
-#div1{
+    font-size: 28px;
+    font-weight: 400;
+    list-style: var(--turquise);
+    padding-right: 20px;
     
+}
+.li2::marker{
+    color: var(--turquise);
+}
+#li-1{
+    list-style: none;
+    /* margin-right: 10px; */
+}
+#p-1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 487px;
+    line-height: 142%
+}
+#p-2{
+    font-family: var(--font-family);
+    font-weight: 400;
+    width: 500px;
+    color: var(--very-light-gray);
+}
+
+button{
+    height: 58px;
+    width: 205px;
+    background-color: var(--green);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-color: var(--footer-gray);
 }
