@@ -111,4 +111,19 @@ button{
 }
 footer{
     background-color: var(--footer-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#icon{
+    width: 10%;
+}
+#p-2{
+   text-align: center;
+   padding-top: 21px;
+   line-height: 140%;
+}
+#app-icons{
+    margin-top: 33px;
 }
