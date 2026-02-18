@@ -127,3 +127,59 @@ footer{
 #app-icons{
     margin-top: 33px;
 }
+#hamburger{
+    display: none;
+}
+@media (max-width: 926px) {
+    body{
+        overflow-x: hidden;
+    }
+    .li1{
+        display: none;
+    }
+    .container{
+        padding: 25px 20px;
+    }
+    #hamburger{
+        display: block;
+        padding: 0 20px;
+        height: 26px;
+    }
+    main{
+        flex-direction: column-reverse;
+    }
+    #img-1{
+        width: 103px;
+    }
+    #img-2{
+        width: 95%;
+        align-self: center;
+        display: flex;
+        justify-self: center;
+    }
+    #div1{
+        text-align: center;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    .li2{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-ite
+    }
+    #p-1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    button{
+        margin-bottom: 70px;
+    }
+    #icon{
+        height: 32px;
+        width: 88px;
+    }
+    #app-icons{
+
+    }
+}
