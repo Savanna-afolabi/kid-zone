@@ -122,7 +122,7 @@ footer{
 #p-2{
    text-align: center;
    padding-top: 21px;
-   line-height: 140%;
+   /* line-height: 140%; */
 }
 #app-icons{
     margin-top: 33px;
@@ -163,12 +163,16 @@ footer{
         /* justify-content: center; */
     }
     .li2{
-        font-size: 16px;
+        font-size: 16.01px;
         display: flex;
+        font-weight: 400;
     }
     #p-1{
         padding-left: 20px;
         padding-right: 20px;
+        font-size: 19px;
+        line-height: 2;
+
     }
     button{
         margin-bottom: 70px;
@@ -180,5 +184,8 @@ footer{
     #ul2{
         display: flex;
         justify-content: center;
+    }
+    #p-2{
+        font-size: 15px;
     }
 }
