@@ -95,6 +95,7 @@ main{
     font-weight: 400;
     width: 500px;
     color: var(--very-light-gray);
+    padding-top: 21px;
 }
 
 button{
@@ -118,11 +119,7 @@ footer{
 #icon{
     width: 10%;
 }
-#p-2{
-   text-align: center;
-   padding-top: 21px;
-   /* line-height: 140%; */
-}
+
 #app-icons{
     margin-top: 33px;
 }
@@ -138,6 +135,7 @@ footer{
     }
     .container{
         padding: 25px 20px;
+        border: red 2px solid;
     }
     #hamburger{
         display: block;
@@ -170,8 +168,9 @@ footer{
         padding-right: 20px; */
         font-size: 19px;
         line-height: 2;
-        justify-self: center;
-        display: flex;
+        text-align: center;
+        /* display: flex; */
+        width: 100%;
     }
     button{
         margin-bottom: 70px;
@@ -190,6 +189,8 @@ footer{
     }
     #p-2{
         font-size: 15px;
+        width: 100%;
+        text-align: center;
     }
    footer{
     height: 334px;
